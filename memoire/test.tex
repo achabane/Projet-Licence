@@ -1,0 +1,105 @@
+\documentclass[12pt]{report}
+\usepackage{style}
+
+
+\typeMemoire{Diplôme de Licence en Informatique}
+%\optionFormation{Informatique Générale}
+\etudiant{prénoms \textbf{Nom de Famille}}
+\titreDuMemoire{Le titre du mémoire}
+\anneeScolaire{2013-2014}
+
+% Plusieurs encadrants décommenté la ligne suivante
+%\encadrants{prénoms \textbf{Nom de Famille}\\ prénoms \textbf{Nom de Famille}}
+
+% Un seul encadrant décommenté la ligne suivante
+\encadrants{prénoms \textbf{Nom de Famille}}
+
+
+
+
+\hypersetup{
+ pdftitle={Le titre du mémoire},
+ pdfauthor={VotreNom, email@email.com},
+ pdfsubject={Titre du mémoire},
+ pdfkeywords={mots clé, du, mémoire, IFRI} 
+ }
+ 
+\begin{document}
+
+\pageDeGarde
+
+\selectlanguage{french}
+
+% sommaire
+\pagenumbering{roman}
+
+%\dominitoc
+
+\include{dedicace/dedicace}
+%% remerciements
+\include{remerciements/remerciements}
+
+\tableofcontents
+
+%liste des algo
+\selectlanguage{french}
+\listofalgorithms
+
+%liste des figures
+\listoffigures 
+
+%liste des tableaux
+\listoftables
+
+
+%\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% glossaire
+
+\input{glossaire/glossaire_reduit}\addcontentsline{toc}{chapter}{Glossaire}
+%\glsaddall
+\printglossaries
+%\newpage
+
+% résumé
+\include{resume/resume_abstract_reduit}
+
+\selectlanguage{french}
+%%introduction
+\lhead[]{} \rhead[]{} \chead[]{}
+
+\include{introduction/introduction_reduit}
+
+\fancyhead[L]{\tiny \leftmark}
+\fancyhead[R]{\scriptsize \rightmark}
+\fancyfoot[C]{\thepage}
+
+\chapter{Revue de littérature}
+	\input{dossier/fichier}
+
+\chapter{Matériels et méthodes}
+\section{Matériels}
+Citez le matériel
+\section{Méthodes}
+Citez les méthodes
+\chapter{Résultats}
+\chapter{Discussion}
+
+%
+%%conclusion
+\lhead[]{} \rhead[]{} \chead[]{}
+\include{conclusion/conclusion_reduit}
+
+%%biblio
+\include{biblio/biblio}
+%
+
+\appendix
+\include{annexe/annexe_mise_en_place}
+
+\end{document}
+
+
+

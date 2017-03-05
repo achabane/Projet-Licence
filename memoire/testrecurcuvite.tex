@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[demo]{graphicx}
+
+\makeatletter % we need to use kernel commands
+\newcommand{\twoimages}{%
+  \begin{figure}[!htb]
+  \@twoimagesi
+}
+\newcommand\@twoimagesi{\@ifnextchar\stopimages{\@twoimagesend}{\@twoimagesii}}
+
+\newcommand\@twoimagesii[6]{%
+  \@twoimagesiii{#1}{#2}{#3}\hfill
+  \@twoimagesiii{#4}{#5}{#6}\\[\bigskipamount]
+  \@twoimagesi % restart the recursion
+}
+\newcommand\@twoimagesiii[3]{%
+  \begin{minipage}{0.49\linewidth}
+    \centering
+    \includegraphics[width=#3\linewidth]{#1}
+    \caption{#2}\label{ris:#1}
+  \end{minipage}}
+\newcommand\@twoimagesend[1]{% The argument is \stopimages
+  \vspace*{-\bigskipamount}
+  \end{figure}}
+\makeatother
+
+\begin{document}
+\twoimages
+  {a}{Caption left}{.5}
+  {b}{Caption right}{.5}
+  {c}{Caption left}{.5}
+  {d}{Caption right}{.5}
+\stopimages
+\end{document}

@@ -1,0 +1,60 @@
+\introduction
+      \paragraph{}
+      \small{
+	La connaissance dans les détails du milieu dans lequel on vit ou que l'on visite 
+    s'avère éssentielle.Le SIG (Sytème d'Information Géographique),véritable outil d'aide 
+    qui met à disposition l'information localisée et cartographiée au grand public pourrait
+    y contribuer.
+	La géolocalisation mobile résultat de la combinaison du SIG,d'internet et du mobile
+    est un domaine en plaine évolution ces dernières années.Cette évolution est marquée par 
+    l'apparition des applications mobiles de géolocalisation telles que Google Maps,Osmand 
+    et bien d'autres.Aussi la mise à disposition aux professionnels du domaine (les developpeurs surtout)
+    des API (Application Programming Interface) et l'existence de nombreux outils libre ont rendu plus 
+    accessible la géolocalisation mobile.Ces applications mobiles qui peuvent être de promotion touristique,
+    de calcul d'itinéraire,de recherche géolocalisée de ressources d'un territoire ont ainsi fait grandir
+    l'intérêt du grand public pour la cartographie mobile. 
+	Le thème de notre mémoire << Système de géolocalisation sur le campus d'Abomey-Calavi >> s'inscrit dans 
+    cette dynamique,Il s'agira de mettre en place une application mobile sous android de géolocalisation pour l'Université
+    d' Abomey-Calavi (UAC).}
+    
+    \paragraph{Problématique\\ \\}
+    \small{ 
+	 Le nombre d’utilisateurs de smartphone est chaque jour grandissant et la plupart de
+ces outils de communication sont aujourd’hui connectés. Cependant, on enregistre souvent
+des plaintes des utilisateurs en particulier ceux concernant la consommation de données
+mobiles de leurs téléphones. La plus par accusent les opérateurs GSM, d’autres se plaignent de ne pouvoir contrôler certaines mises à jour de certaines applications, et d'autres même du fonctionnement arrière-plan de certaines applications etc. Il serait intéressant de disposer d’un gestionnaire de la consommation d’internet de chaque
+application de nos téléphones afin que les utilisateurs de smartphones puissent facilement avoir le contrôle sur la consommation des données et de planifier la consommation de données sur une période données.
+  
+	}
+
+    \paragraph{Objectif\\ \\}
+    \small{ 
+	  Notre projet à pour objectif principal de mettre à la disposition des utilisateurs de smartphones, une application android
+	  leurs permettant de controler leurs consommation en terme de forfait internet.
+      
+	  Plus précisement il s'agira de permettre aux utilisateurs de pouvoir:
+	
+    \begin{itemize}
+	\item évaluer la consommation internet (données mobiles et wifi) pour chaque application,
+	\item Calculer un itinéraire.
+	\item Rechercher un bâtiment.
+	\item Consulter la fiche d’un bâtiment.
+        \item Utiliser la navigation.
+    \end{itemize}
+    }
+
+    \paragraph{\\}
+	\small{
+	  Le présent mémoire fait le point de nos travaux et comporte trois (3) chapitres.
+	
+	  La premier présente une revue de littérature sur la géolocalisation mobile
+      sur la base de laquelle nous avons élaboré notre problématique.
+    
+	  Dans le deuxième chapitre, nous présentons les choix techniques opérés en
+      vue de la conception et de la réalisation de la solution proposée.
+    
+	  Le troisième chapitre fait une analyse critique des résultats issus de nos simulations 
+      après les avoir exposés.
+	}
+
+

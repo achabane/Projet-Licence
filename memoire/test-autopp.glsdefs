@@ -1,0 +1,90 @@
+\ifglsentryexists{qos}{}%
+{%
+\gls@defglossaryentry{qos}%
+{%
+name={QoS},%
+sort={QoS},%
+type={main},%
+first={Quality of Service (QoS)},%
+firstplural={Quality of Services(QoSs)},%
+text={QoS},%
+plural={QoSs},%
+description={Quality of Service},%
+descriptionplural={Quality of Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Quality of Service},%
+longplural={Quality of Services},%
+short={QoS},%
+shortplural={QoSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tcp}{}%
+{%
+\gls@defglossaryentry{tcp}%
+{%
+name={TCP},%
+sort={TCP},%
+type={main},%
+first={Transmission-Control Protocol (TCP)},%
+firstplural={Transmission-Control Protocols(TCPs)},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission-Control Protocol},%
+descriptionplural={Transmission-Control Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission-Control Protocol},%
+longplural={Transmission-Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{supervision}{}%
+{%
+\gls@defglossaryentry{supervision}%
+{%
+name={Supervision},%
+sort={Supervision},%
+type={main},%
+first={Supervision},%
+firstplural={Supervisions},%
+text={Supervision},%
+plural={Supervisions},%
+description={Superviser consiste à indiquer/modifier l'état d'un système informatique ou d'un hôte. La supervision est donc la fonction qui permet de remonter/éditer les informations techniques relatives à un hôte ou a un ou des réseaux. En d'autres termes, la supervision de réseaux peut être définie comme l'utilisation de ressources réseaux (matériel et logiciel) adaptées dans le but d'obtenir des informations (en temps réel ou non) sur l'utilisation ou la condition des hôtes dans le réseau afin d'assurer un niveau de service garanti, une bonne qualité et une répartition optimale et de ceux-ci.},%
+descriptionplural={Superviser consiste à indiquer/modifier l'état d'un système informatique ou d'un hôte. La supervision est donc la fonction qui permet de remonter/éditer les informations techniques relatives à un hôte ou a un ou des réseaux. En d'autres termes, la supervision de réseaux peut être définie comme l'utilisation de ressources réseaux (matériel et logiciel) adaptées dans le but d'obtenir des informations (en temps réel ou non) sur l'utilisation ou la condition des hôtes dans le réseau afin d'assurer un niveau de service garanti, une bonne qualité et une répartition optimale et de ceux-ci.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

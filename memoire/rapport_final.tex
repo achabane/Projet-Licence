@@ -1,0 +1,123 @@
+\documentclass[12pt]{report}
+\usepackage{styleIFRI}
+
+\typeMemoire{DIPLOME DE LICENCE EN INFORMATIQUE GÉNÉRALE}
+\etudiant{\textbf{AROUNA} Hospice Alfred }
+%\titreDuMemoire{Supervision des grands réseaux avec une solution libre basée sur SNMP}
+\titreDuMemoire{Solution libre de supervision réseau: initialisation automatique du NAV en utilisant SNMP}
+\dateSoutenance{Le jeudi 20 décembre 2012}
+\promo{2\up{ème}}
+
+
+%%maitre de mémoire
+\encadrant{Monsieur Toussaint OKEY}
+\professeur{Prof Norbert M. HOUNKONNOU}
+\docteur{Dr Semiyou A. ADEDJOUMA}
+%%president du jury
+
+\juryP{\textbf{Président} : Dr \textbf{ADEDJOUMA} Semiyou A., Enseignant-Chercheur à l'EPAC}
+\juryMembre{\textbf{Membres} :}
+%%Premier rapporteur
+\juryR{1°) Dr. \textbf{Baloïtcha} Ezinvi, Coordonnateur des études au CEFRI}
+%%Examinateur
+\juryE{2°) Mme \textbf{Gnonlonfoun} Miranda, Enseignant au CEFRI}
+%%second rapporteur
+\juryRa{~}
+%%second examinateur
+\juryEx{~}
+
+\hypersetup{
+ pdftitle={Solution libre de supervision r\'eseaux: initialisation automatique du NAV en utilisant SNMP},
+ pdfauthor={Hospice Alfred AROUNA, aang@arouna.net},
+ pdfsubject={Supervision des grands r\'eseaux avec une solution libre bas\'ee sur SNMP},
+ pdfkeywords={r\'eseau, supervision, monitoring, SNMP, client, serveur, CeFRI} 
+ }
+
+\color{bookColor} 
+\begin{document}
+
+\pageDeGarde
+
+\pagecolor{white}
+%% page vide
+\thispagestyle{empty}\ \clearpage
+
+
+\selectlanguage{french}
+
+% sommaire
+\pagenumbering{roman}
+
+%\dominitoc
+
+%% remerciements
+\include{remerciements/remerciements}
+
+\tableofcontents
+
+%liste des algo
+\selectlanguage{french}
+\listofalgorithms
+
+%liste des figures
+\listoffigures 
+
+%liste des tableaux
+\listoftables
+
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% glossaire
+
+\input{glossaire/glossaire_reduit}\addcontentsline{toc}{chapter}{Glossaire}
+%\glsaddall
+\printglossaries
+%\newpage
+
+% résumé
+\include{resume/resume_abstract_reduit}
+
+\selectlanguage{french}
+%%introduction
+\lhead[]{} \rhead[]{} \chead[]{}
+\include{introduction/introduction_reduit}
+%\lhead[]{} \rhead[]{} \chead[]{}
+\fancyhead[L]{\tiny \leftmark}
+\fancyhead[R]{\scriptsize \rightmark}
+\fancyfoot[C]{\thepage}
+
+ 
+ \chapter{Le Network Administration Visualized}
+   \input{partie2/chapitre1/presentation}
+   \input{partie2/chapitre1/limites}
+   
+ \chapter{Initialisation automatique de la base de données}\label{init_db}
+   \input{partie2/chapitre2/apport}
+   \input{partie2/chapitre2/algo_reduit}
+   \input{partie2/chapitre2/code_reduit}
+
+   
+  
+
+%
+%%conclusion
+\include{conclusion/conclusion_reduit}
+% 
+
+
+
+
+%%biblio
+\include{biblio/biblio}
+%
+\appendix
+%
+
+
+ 
+
+
+\end{document}          
